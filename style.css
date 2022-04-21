@@ -1,0 +1,60 @@
+body {
+   margin: 0;
+   min-height: 100vh;
+   background-color: rgb(124, 167, 130);
+}
+
+button {
+   background-color: white;
+}
+
+.first {
+   margin: 0;
+   border: green 10px solid;
+   text-align: center;
+}
+
+.middle {
+   display: flex;
+   justify-content: space-around;
+   border: rgb(93, 146, 206) 10px solid;
+}
+
+.corpus {
+   display: grid;
+   border: rgb(190, 88, 216) 10px solid;
+   padding: auto;
+   margin: auto;
+   grid-template-columns: repeat(3, 1fr);
+   grid-auto-rows: 150px;
+}
+
+.books {
+   justify-content: center;
+   border: rgb(212, 183, 18) 10px solid;
+}
+
+#Eraser {
+   display: flex;
+   font-size: 15px;
+   border-radius: 50%;
+   margin-left: auto;
+   margin-bottom: -10px;
+}
+
+.formContainer{
+   backdrop-filter: blur(1px);
+   background-color: rgba(0,0,0,0.5);
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   justify-content: center;
+   height: 100%;
+   width: 100%;
+   min-height: 100vh;
+}
+
+.form{
+   position:relative;
+   background-color: skyblue;
+}
